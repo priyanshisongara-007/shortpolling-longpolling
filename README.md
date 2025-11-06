@@ -43,18 +43,18 @@ This project demonstrates simple examples of **Short Polling** and **Long Pollin
   - Otherwise returns `{ "newData": null }`.
   
 
-**Requirements and Setup**
+## Requirements and Setup
 Java 17 (or compatible Java version).
 Maven for dependency management (or include Jetty and Jakarta Servlet jars manually).
 Embed Jetty version 11.x compatible with Jakarta Servlet API 5.0.
 Running the Server
 
-**Build the project with Maven:**
+## Build the project with Maven:
 mvn clean package
 **Run the server class:**
 java -cp target/polling-server-1.0-SNAPSHOT.jar PollingServer
 
-**Access the endpoints on:**
+## Access the endpoints on:
 
-http://localhost:8080/shortpoll
-http://localhost:8080/longpoll
+http://localhost:5000/shortpoll
+http://localhost:5000/longpoll
